@@ -1,9 +1,8 @@
 import { IoCartOutline } from 'react-icons/io5';
 
-import { Navigation } from '@/shared/ui/navigation';
+import { Navigation } from '@/shared/ui';
 
 export const Header = () => (
-  //
   <div className="h-[100vh] bg-white px-6 py-8 flex flex-col justify-between items-center max-w-[100px]">
     <div className="flex justify-center items-center max-w-full cursor-pointer">
       <img

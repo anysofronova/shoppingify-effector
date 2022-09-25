@@ -1,9 +1,9 @@
 import { Outlet } from 'react-router-dom';
 
-import { Header } from '@/shared/ui/header';
+import { Header } from '@/shared/ui';
 
 export const MainLayout = () => (
-  <div className="flex bg-slate-200">
+  <div className="flex w-full">
     <Header />
     <Outlet />
   </div>

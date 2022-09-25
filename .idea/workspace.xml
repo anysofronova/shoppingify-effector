@@ -4,19 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e95453ae-0178-42c8-9f61-af1b2ee80b69" name="Changes" comment="feat: header 🍄">
-      <change afterPath="$PROJECT_DIR$/src/shared/ui/navigation/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/ui/navigation/navigation.tsx" afterDir="false" />
+    <list default="true" id="e95453ae-0178-42c8-9f61-af1b2ee80b69" name="Changes" comment="feat: shopping list">
+      <change afterPath="$PROJECT_DIR$/src/app/assets/svg/bottle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/interfaces/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/interfaces/item.interface.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/shopping-list/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/shopping-list/shopping-list.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/shopping-list/ui/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/shopping-list/ui/list-items/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/shopping-list/ui/list-items/list-item/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/shopping-list/ui/list-items/list-item/list-item.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/shopping-list/ui/list-items/list-items.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/shopping-list/ui/shopping-list-bottom/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/shopping-list/ui/shopping-list-bottom/shopping-list-bottom.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/shopping-list/ui/shopping-list-top/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/ui/shopping-list/ui/shopping-list-top/shopping-list-top.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintrc.json" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shoppingify-effector.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shoppingify-effector.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/assets/svg/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/assets/svg/logo.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/styles/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/global.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/home/home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/home.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/shared/ui/header/header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/ui/header/header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/ui/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/ui/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/shared/ui/layouts/main-layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/ui/layouts/main-layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/ui/suspensy/suspensy.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/ui/suspensy/suspensy.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,6 +100,12 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/shared/ui/shopping-list/ui" />
+      <recent name="$PROJECT_DIR$/src/shared/ui/list-items" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
@@ -120,7 +137,7 @@
       <workItem from="1663839100934" duration="18739000" />
       <workItem from="1663934264318" duration="9095000" />
       <workItem from="1664009879279" duration="584000" />
-      <workItem from="1664010473444" duration="2626000" />
+      <workItem from="1664010473444" duration="12706000" />
     </task>
     <task id="LOCAL-00001" summary="fix: init 🌿">
       <created>1663852664112</created>
@@ -171,7 +188,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663924138346</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="feat: header 🍄">
+      <created>1664013712573</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1664013712574</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -199,6 +223,7 @@
     <MESSAGE value="feat: basic routing " />
     <MESSAGE value="fix: tailwind " />
     <MESSAGE value="feat: header " />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: header " />
+    <MESSAGE value="feat: shopping list" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: shopping list" />
   </component>
 </project>

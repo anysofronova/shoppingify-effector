@@ -44,6 +44,7 @@
     "global-require": 0,
     "@typescript-eslint/no-var-requires": 0,
     "no-use-before-define": "off",
+    "import/export": 0,
     "react/react-in-jsx-scope": "off",
     "react/jsx-filename-extension": ["warn", { "extensions": [".tsx"] }],
     "react/jsx-props-no-spreading": "off",
